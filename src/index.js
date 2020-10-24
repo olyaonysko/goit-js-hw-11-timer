@@ -46,7 +46,7 @@ class CountdownTimer {
 }
 const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Oct 10, 2020'),
+  targetDate: new Date('Oct 25, 2020'),
 });
 
 timer.start();
